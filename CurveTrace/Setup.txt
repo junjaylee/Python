@@ -1,0 +1,37 @@
+For Windows
+1. Install NI-488.2
+2. Install python-2.7.11.amd64
+3. Install VCForPython27
+4. Open command line window
+5. set PATH=%PATH%;C:\Python27;C:\Python27\Scripts
+6. eazy_install pytz-2016.4-py2.7.egg
+7. pip install six-1.10.0-py2.py3-none-any.whl
+8. pip install numpy-1.11.0-cp27-none-win_amd64.whl
+9. pip install cycler-0.10.0-py2.py3-none-any.whl
+10. pip install enum34-1.1.5-py2.py3-none-any.whl
+11. pip install pyparsing-2.1.1-py2.py3-none-any.whl
+12. pip install matplotlib-1.5.1-cp27-none-win_amd64.whl
+13. Unzip PyVISA-1.8.tar, Go to PyVISA-1.8 folder
+14. python setup.py install
+15. Unzip pandas-0.18.1.tar, Go to pandas-0.18.1 folder
+16. python setup.py install
+python-dateutil
+For Mac
+1. Install NI-488.2_14.1.dmg
+2. Install Command_Line_Tools_OS_X_10.10_for_Xcode_7.2.dmg
+3. Upzip pip-8.1.1.tar
+4. Open command line window, Go to pip-8.1.1 folder
+5. python setup.py install
+6. Unzip PyVISA-1.8.tar, Go to PyVISA-1.8 folder
+7. sudo python setup.py install
+8. sudo pip install pandas-0.18.1-cp27-cp27m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl
+9. sudo pip install matplotlib-1.5.1-cp27-none-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl
+
+
+How to use Tool
+1. Open command line window
+2. python CurveTrace.pyc PP1v8 -0.7 0.8 0.05
+PP1v8 --- Test Item
+-0.7  --- Start of measurment voltage
+0.8   --- End of measurement voltage
+0.05  --- Measurment Step

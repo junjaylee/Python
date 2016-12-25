@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MongoDB_URL</key>
+	<string>mongodb://root:000000@172.28.137.40:27017/?authSource=admin</string>
+	<key>KEY_LIST</key>
+		<array>
+			<string>SerialNumber</string>
+			<string>StationID</string>
+			<string>StartTime</string>
+			<string>EndTime</string>
+			<string>ProductID</string>
+		</array>
+</dict>
+</plist>

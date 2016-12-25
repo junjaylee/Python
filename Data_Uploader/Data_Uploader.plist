@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CutTime</key>
+	<integer>900</integer>
+	<key>Matrix</key>
+	<array>
+		<dict>
+			<key>Path</key>
+			<string>D:\FTP_Data\Build_Matrix\Jedi\FATP_Config.csv</string>
+			<key>TableName</key>
+			<string>FATP_Config</string>
+			<key>TransferTime</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>Path</key>
+			<string>D:\FTP_Data\Build_Matrix\Jedi\MLB_Config.csv</string>
+			<key>TableName</key>
+			<string>MLB_Config</string>
+			<key>TransferTime</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>Path</key>
+			<string>D:\FTP_Data\Build_Matrix\Jedi\MLB_Config_SKU.csv</string>
+			<key>TableName</key>
+			<string>MLB_SKU</string>
+			<key>TransferTime</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>Path</key>
+			<string>D:\FTP_Data\Build_Matrix\Jedi\FATP_Config_SKU.csv</string>
+			<key>TableName</key>
+			<string>FATP_SKU</string>
+			<key>TransferTime</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>MongoDB_URL</key>
+	<string>mongodb://root:000000@127.0.0.1:27017/</string>
+	<key>PDCA</key>
+	<array>
+		<dict>
+			<key>Alias</key>
+			<string>Kirin_CELL-CAL_tinamean</string>
+			<key>Limit</key>
+			<string>Kirin_CELL-CAL_limit</string>
+			<key>Path</key>
+			<string>D:\FTP_Data\PDCA_Data\Kirin\CELL-CAL</string>
+			<key>TableName</key>
+			<string>Kirin_CELL-CAL_rawdata</string>
+			<key>TransferTime</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>LineManager</key>
+	<array>
+		<string>PGPD_F02-</string>
+		<string>PGPD_F05-</string>
+	</array>
+	<key>ReserverdItemsName</key>
+	<array>
+		<string>Product</string>
+		<string>SerialNumber</string>
+		<string>Special Build Name</string>
+		<string>Special Build Description</string>
+		<string>Unit Number</string>
+		<string>Station ID</string>
+		<string>Test Pass/Fail Status</string>
+		<string>overallResult</string>
+		<string>StartTime</string>
+		<string>EndTime</string>
+		<string>List Of Failing Tests</string>
+		<string>BUILD_MATRIX_CONFIG</string>
+		<string>Version</string>
+		<string>Slot Number</string>
+	</array>
+</dict>
+</plist>
